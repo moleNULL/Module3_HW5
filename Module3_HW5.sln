@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTextAsyncFromFiles", "ReadTextAsyncFromFiles\ReadTextAsyncFromFiles.csproj", "{3058E997-D677-40A0-89F1-FAA3E98FBC82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3058E997-D677-40A0-89F1-FAA3E98FBC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3058E997-D677-40A0-89F1-FAA3E98FBC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3058E997-D677-40A0-89F1-FAA3E98FBC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3058E997-D677-40A0-89F1-FAA3E98FBC82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1F31C37-93D6-4BF5-ADD5-A5D416E77352}
+	EndGlobalSection
+EndGlobal
