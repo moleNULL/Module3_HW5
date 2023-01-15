@@ -1,10 +1,24 @@
-﻿namespace ReadTextAsyncFromFiles
+﻿/*
+                                                      Задача
+
+-Створити асинхронний метод, який асинхронно читатиме з файлу "Hello"
+-Створити асинхронний метод, який асинхронно читатиме з іншого файлу "World"
+-Створити асинхронний метод, у якому асинхронно виконуватимуться методи витягування тексту.
+    Дочекатися паралельне виконання двох методів та повернуть конкатенацію текстів як результат поточного методу.
+-Синхронно запустити метод, який повертає результат контатенації
+
+ */
+
+namespace ReadTextAsyncFromFiles
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("");
+            Starter.Run();
+
+            Console.Write("\nPress any key to continue . . .");
+            Console.ReadLine();
         }
     }
 }
